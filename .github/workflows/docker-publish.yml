@@ -47,4 +47,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: 0xcd0e/collabora:latest
+          tags: 0xcd0e/collabora:test
