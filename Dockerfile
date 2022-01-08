@@ -19,6 +19,8 @@ RUN apt update && apt install -y fonts-open-sans apt-transport-https gnupg2 ca-c
 
 COPY /entrypoint.sh /
 
+RUN chmod 777 /entrypoint.sh
+
 EXPOSE 9980
 
 USER cool
